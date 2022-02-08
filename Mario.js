@@ -5,7 +5,7 @@ nEspacios = altura - nPiso;
 nNumerales = nPiso;
 texto ="<p>"
 //añadir un espacio al texto nEspacios veces
-for (let i=0, i<nEspacios; i++)
+for (let i=0; i<nEspacios; i++)
 {
     texto = texto +"&nbsp"
 }
